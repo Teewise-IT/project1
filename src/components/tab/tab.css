@@ -1,0 +1,58 @@
+.container{
+    width: 100%;
+    padding: 30px;
+    background: lightgray;
+}
+.header{
+    width: 100%;
+    text-align: center;
+}
+.cont-content{
+    width: 40%;
+    display: flex;
+    background: white;
+    margin: 20px auto;
+}
+.buttons{
+    width: 30%;
+}
+.button{
+    width: 120px;
+    height: 40px;
+    background: lightgray;
+    border-left: 2px solid orangered;
+    border-radius: 2px;
+    margin-bottom: 1px;
+}
+.active-button{
+    background: purple;
+    border: none;
+    color: white;
+    position: relative;
+}
+.active-button::after{
+    content: "";
+    position: absolute;
+    background: purple;
+    top: 12px;
+    right: -4px;
+    width: 1rem;
+    height: 1rem;
+    transform: rotate(45deg);
+}
+.contents{
+    padding: 10px;
+    display: none;
+}
+.active-content{
+    display: block;
+    animation: slide-right 0.7s ease 1;
+}
+@keyframes slide-right {
+    0%{
+        transform: translateX(-3rem);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

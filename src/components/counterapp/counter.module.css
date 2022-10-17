@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .sec{
+    display: flex;
+    background-color: purple;
+    height: 35vh;
+  }
+  .cont{
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: lightblue;
+    text-align: center;
+  }
+  .num{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+  }
+  .button{
+    padding: 5px;
+    margin: 20px 1px 0px 1px;
+    border: none;
+    cursor: pointer;
+  }
+  .head{
+    font-weight: bolder;
+    color: aliceblue;
+    margin-bottom: 20px;
+  }

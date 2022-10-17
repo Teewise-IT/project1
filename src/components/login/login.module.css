@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    background: darkblue;
+    padding: 30px;
+}
+.login{
+    width: 40%;
+    background: white;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.heading{
+    color: blue;
+    margin-bottom: 10px;
+}
+.user{
+    width: 90%;
+    height: 20px;
+    padding: 10px;
+    margin: 5px 0px;
+}
+.password{
+    position: relative;
+}
+.pass{
+    width: 90%;
+    height: 20px;
+    padding: 10px;
+    margin: 5px 0px;
+}
+.icon{
+    position: absolute;
+    top: 1.2rem;
+    right: 1.5rem;
+    cursor: pointer;                                                                                                                                                                                                            
+}
+.logon{
+    width: 95%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px 0px;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
