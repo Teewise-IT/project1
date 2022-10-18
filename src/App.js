@@ -6,6 +6,7 @@ import Modal from './components/Modal';
 import Profile from './components/Profileapp/Profile';
 import {useState} from 'react'
 import Tab from './components/tab/Tab';
+import Timer from './components/timer/Timer';
 
 function App() {
   const [showModal, setShowModal] = useState(false)
@@ -22,6 +23,7 @@ function App() {
   return (
     <div className="App">
       <button type="submit" onClick={handleShowModal}>Open Modal</button>
+      <Timer />
       <Tab />
       <Login />
       <Joke />

@@ -27,10 +27,10 @@ const Counter = () => {
         <div className={styles.cont}>
           <h1 className={styles.head}>React Counter App</h1>
           <p className={styles.num} style={{color: color}}>{count}</p>
-          <div className="buttons">
-            <button style={{background: "red", color: "white"}} className={styles.button} onClick={handleSub}>- Substract</button>
-            <button className={styles.button} onClick={handleReset}>! Reset</button>
-            <button style={{background: "green", color: "white"}} className={styles.button} onClick={handleAdd}>+ Add</button>
+          <div className="buttons1">
+            <button style={{background: "red", color: "white"}} className={styles.button1} onClick={handleSub}>- Substract</button>
+            <button className={styles.button1} onClick={handleReset}>! Reset</button>
+            <button style={{background: "green", color: "white"}} className={styles.button1} onClick={handleAdd}>+ Add</button>
           </div>
         </div>
       </section>
